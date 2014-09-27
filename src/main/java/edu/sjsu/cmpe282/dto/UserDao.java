@@ -17,7 +17,7 @@ public class UserDao {
 			} catch (ClassNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}conn = DriverManager.getConnection("jdbc:mysql://localhost/CloudServices","root","8ePO2O8E0UHG91975I3k");
+			}conn = DriverManager.getConnection("jdbc:mysql://172.31.22.128/CloudServices","root","8ePO2O8E0UHG91975I3k");
 		      //conn = DriverManager.getConnection("jdbc:mysql://localhost/CloudServices","root","HappYSnoopY");
 		      System.out.println("COnn:"+conn);
 		   }
